@@ -17,6 +17,8 @@ spec:
     registry: ghcr.io
   environments:
   - key: dev
+    owner: yyunk
+    repository: jx-demo5
   - key: staging
   - key: production
   ingress:
@@ -27,6 +29,8 @@ spec:
       email: ""
       enabled: false
       production: false
+  pipelineUser:
+    username: yyunk
   repository: bucketrepo
   secretStorage: local
   vault: {}
